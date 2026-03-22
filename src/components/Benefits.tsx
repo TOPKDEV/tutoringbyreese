@@ -22,9 +22,9 @@ const benefits = [
 
 export function Benefits() {
     return (
-        <section id="benefits" className="py-20 md:py-28">
+        <section id="benefits" className="py-14 md:py-24">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="max-w-2xl mb-16">
+                <div className="max-w-2xl mb-10">
                     <p className="text-sm text-faint uppercase tracking-widest mb-4">
                         Why it works
                     </p>
@@ -33,7 +33,7 @@ export function Benefits() {
                     </h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-10">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
                     {benefits.map((benefit, index) => (
                         <motion.div
                             key={index}

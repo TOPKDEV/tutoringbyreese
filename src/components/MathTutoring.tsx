@@ -13,9 +13,9 @@ const subjects = [
 
 export function MathTutoring() {
     return (
-        <section id="math-tutoring" className="py-20 md:py-28">
+        <section id="math-tutoring" className="py-14 md:py-24">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="grid md:grid-cols-2 gap-16 items-center">
+                <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}

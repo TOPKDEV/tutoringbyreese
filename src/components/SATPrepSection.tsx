@@ -6,7 +6,7 @@ import { ArrowRight, Check, Calendar, Clock, BookOpen } from 'lucide-react';
 
 export function SATPrepSection() {
     return (
-        <section id="sat-prep" className="py-20 md:py-28 bg-surface">
+        <section id="sat-prep" className="py-14 md:py-24 bg-surface">
             <div className="max-w-6xl mx-auto px-6">
                 {/* SAT Hero Copy */}
                 <motion.div
@@ -14,7 +14,7 @@ export function SATPrepSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
-                    className="max-w-3xl mb-20"
+                    className="max-w-3xl mb-12"
                 >
                     <p className="text-sm text-faint uppercase tracking-widest mb-4">
                         SAT Prep
@@ -28,14 +28,14 @@ export function SATPrepSection() {
                 </motion.div>
 
                 {/* Pricing Cards */}
-                <div className="grid md:grid-cols-3 gap-6 mb-20">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                     {/* Single SAT Session */}
                     <motion.div
                         initial={{ opacity: 0, y: 16 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4 }}
-                        className="bg-base p-8 rounded-lg border border-edge"
+                        className="bg-base p-6 lg:p-8 rounded-lg border border-edge"
                     >
                         <p className="text-xs text-faint uppercase tracking-widest mb-6">Single session</p>
                         <div className="mb-1">
@@ -71,7 +71,7 @@ export function SATPrepSection() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: 0.1 }}
-                        className="bg-base p-8 rounded-lg border border-edge"
+                        className="bg-base p-6 lg:p-8 rounded-lg border border-edge"
                     >
                         <p className="text-xs text-faint uppercase tracking-widest mb-6">5-session pack</p>
                         <div className="mb-1">
@@ -111,7 +111,7 @@ export function SATPrepSection() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: 0.2 }}
-                        className="bg-text p-8 rounded-lg relative md:scale-105 md:-my-2 shadow-lg"
+                        className="bg-text p-6 lg:p-8 rounded-lg relative lg:scale-105 lg:-my-2 shadow-lg sm:col-span-2 lg:col-span-1"
                     >
                         <div className="absolute -top-3 left-8 bg-[#d4919e] text-white text-xs font-medium px-3 py-1 rounded-full uppercase tracking-wider">
                             Best value
@@ -164,7 +164,7 @@ export function SATPrepSection() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
                     >
-                        <div className="grid md:grid-cols-2 gap-12 items-center">
+                        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
                             <div>
                                 <h3 className="text-2xl md:text-3xl font-serif font-medium text-text tracking-tight mb-4">
                                     Book your introduction call

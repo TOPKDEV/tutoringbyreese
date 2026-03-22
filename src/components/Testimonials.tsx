@@ -22,9 +22,9 @@ const testimonials = [
 
 export function Testimonials() {
     return (
-        <section id="testimonials" className="py-20 md:py-28 bg-surface">
+        <section id="testimonials" className="py-14 md:py-24 bg-surface">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="max-w-2xl mb-16">
+                <div className="max-w-2xl mb-10">
                     <p className="text-sm text-faint uppercase tracking-widest mb-4">
                         Real reviews
                     </p>
@@ -33,7 +33,7 @@ export function Testimonials() {
                     </h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {testimonials.map((testimonial, index) => (
                         <motion.div
                             key={index}
@@ -41,7 +41,7 @@ export function Testimonials() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1, duration: 0.4 }}
-                            className="bg-base rounded-lg p-8 border border-edge"
+                            className="bg-base rounded-lg p-6 border border-edge"
                         >
                             <p className="text-muted leading-relaxed mb-6">
                                 &ldquo;{testimonial.quote}&rdquo;

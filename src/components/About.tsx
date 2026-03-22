@@ -5,16 +5,16 @@ import { motion } from 'framer-motion';
 
 export function About() {
     return (
-        <section id="about" className="py-20 md:py-28">
+        <section id="about" className="py-14 md:py-24">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
+                <div className="grid md:grid-cols-2 gap-10 md:gap-20 items-start">
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
                     >
-                        <div className="aspect-[4/5] bg-surface rounded-lg overflow-hidden relative">
+                        <div className="aspect-[4/3] md:aspect-[4/5] bg-surface rounded-lg overflow-hidden relative">
                             <Image
                                 src="/reese.jpeg"
                                 alt="Reese Kicklighter"
