@@ -57,7 +57,7 @@ export function SATPrepSection() {
                             </li>
                         </ul>
                         <Link
-                            href="https://calendar.app.google/4tNZzZV9gwcjhVEu5"
+                            href="https://calendar.app.google/ZNECds3AgsXVxkG46"
                             target="_blank"
                             className="inline-flex items-center gap-2 text-sm font-medium text-text hover:text-muted transition-colors"
                         >
@@ -97,7 +97,7 @@ export function SATPrepSection() {
                             </li>
                         </ul>
                         <Link
-                            href="https://calendar.app.google/4tNZzZV9gwcjhVEu5"
+                            href="https://calendar.app.google/ZNECds3AgsXVxkG46"
                             target="_blank"
                             className="inline-flex items-center gap-2 text-sm font-medium text-text hover:text-muted transition-colors"
                         >

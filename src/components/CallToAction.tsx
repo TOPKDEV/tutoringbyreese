@@ -17,7 +17,7 @@ export function CallToAction() {
 
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Link
-                            href="https://calendar.app.google/4tNZzZV9gwcjhVEu5"
+                            href="https://calendar.app.google/ZNECds3AgsXVxkG46"
                             target="_blank"
                             className="inline-flex items-center justify-center gap-2 bg-base text-text hover:bg-white px-7 py-3.5 rounded-lg font-medium transition-colors"
                         >

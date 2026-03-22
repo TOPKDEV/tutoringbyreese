@@ -93,7 +93,7 @@ export function Hero() {
                             className="flex flex-col sm:flex-row items-start gap-4"
                         >
                             <Link
-                                href="https://calendar.app.google/4tNZzZV9gwcjhVEu5"
+                                href="https://calendar.app.google/ZNECds3AgsXVxkG46"
                                 target="_blank"
                                 className="bg-text hover:bg-text/80 text-base px-7 py-3.5 rounded-lg font-medium transition-colors flex items-center gap-2"
                             >
