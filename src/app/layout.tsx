@@ -9,6 +9,9 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 export const metadata: Metadata = {
   title: "Tutoring By Reese",
   description: "Math tutoring and SAT prep from a student who actually gets it. Book a session with Reese.",
+  icons: {
+    icon: "/pencil.png",
+  },
 };
 
 export default function RootLayout({
