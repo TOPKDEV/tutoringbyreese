@@ -148,7 +148,7 @@ export function SATPrepSection() {
                             </li>
                         </ul>
                         <Link
-                            href="#sat-booking"
+                            href="#sat-calendar"
                             className="inline-flex items-center gap-2 bg-base text-text hover:bg-white px-6 py-3 rounded-lg text-sm font-medium transition-colors w-full justify-center"
                         >
                             Reserve your spot <ArrowRight size={14} />
@@ -192,7 +192,7 @@ export function SATPrepSection() {
                                 </div>
                             </div>
 
-                            <div className="bg-white rounded-lg border border-edge p-4 overflow-hidden">
+                            <div id="sat-calendar" className="scroll-mt-24 bg-white rounded-lg border border-edge p-4 overflow-hidden">
                                 <iframe
                                     src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1XXpYuRIVADudqNh0sNC9zwRgtF5CXCd6b4xXbrXPKJqcfhD8t7Ckok5GAcYCntEMXIhwI2ZLm?gv=true"
                                     style={{ border: 0 }}
