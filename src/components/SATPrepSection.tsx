@@ -144,11 +144,11 @@ export function SATPrepSection() {
                             </li>
                             <li className="flex items-start gap-2">
                                 <Check size={14} className="text-base/50 mt-0.5 shrink-0" />
-                                Free introduction session before start
+                                Free full-length practice test before start
                             </li>
                         </ul>
                         <Link
-                            href="#sat-calendar"
+                            href="#summer-program-booking"
                             className="inline-flex items-center gap-2 bg-base text-text hover:bg-white px-6 py-3 rounded-lg text-sm font-medium transition-colors w-full justify-center"
                         >
                             Reserve your spot <ArrowRight size={14} />
@@ -156,37 +156,41 @@ export function SATPrepSection() {
                     </motion.div>
                 </div>
 
-                {/* Book Your Introduction Call */}
-                <div id="sat-booking" className="scroll-mt-24">
+                {/* Summer Program Booking — separate flow */}
+                <div id="summer-program-booking" className="scroll-mt-24">
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
                     >
-                        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+                        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
                             <div>
                                 <h3 className="text-2xl md:text-3xl font-serif font-medium text-text tracking-tight mb-4">
-                                    Book your introduction call
+                                    Sign up for the summer program
                                 </h3>
                                 <p className="text-muted leading-relaxed mb-6">
-                                    The week before the 8-week program starts, you&apos;ll have a free session with me &mdash; not counted toward your 24 sessions. You&apos;ll get to know me, take a practice test so I can see where you&apos;re at, and we&apos;ll build your study plan from there.
+                                    Book an intro call and we&apos;ll talk through the program, your goals, and your timeline. If it&apos;s the right fit, the week before the 8 weeks start you&apos;ll come in for a free full-length practice SAT (~2.5 hours) so I can see exactly where you&apos;re at and build your study plan.
                                 </p>
 
                                 <div className="bg-base rounded-lg border border-edge p-4 mb-6">
-                                    <p className="text-xs text-faint uppercase tracking-widest mb-3">Come prepared</p>
+                                    <p className="text-xs text-faint uppercase tracking-widest mb-3">What to know</p>
                                     <ul className="space-y-2 text-sm text-muted">
                                         <li className="flex items-start gap-2">
+                                            <Calendar size={13} className="text-faint mt-0.5 shrink-0" />
+                                            The program runs for specific weeks in the summer &mdash; we&apos;ll confirm dates on the call
+                                        </li>
+                                        <li className="flex items-start gap-2">
                                             <Clock size={13} className="text-faint mt-0.5 shrink-0" />
-                                            Block off about an hour &mdash; 20 min with parents, 45 min with the student
+                                            The practice test before we start is about 2.5 hours &mdash; it&apos;s a real full-length SAT
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <BookOpen size={13} className="text-faint mt-0.5 shrink-0" />
-                                            The student will take a practice SAT section so I can see where they&apos;re at
+                                            Parents, please join the beginning of the intro call &mdash; it helps to be on the same page
                                         </li>
                                         <li className="flex items-start gap-2">
                                             <Check size={13} className="text-faint mt-0.5 shrink-0" />
-                                            Be honest &mdash; cheating only hurts you. The whole point is to find the gaps so we can fix them
+                                            The practice test is free and doesn&apos;t count toward your 24 sessions
                                         </li>
                                     </ul>
                                 </div>
@@ -199,7 +203,7 @@ export function SATPrepSection() {
                                     width="100%"
                                     height="600"
                                     className="rounded-lg"
-                                    title="Book your introduction call"
+                                    title="Book your summer program intro call"
                                 />
                             </div>
                         </div>

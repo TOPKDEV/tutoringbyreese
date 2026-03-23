@@ -23,7 +23,7 @@ const faqs = [
     },
     {
         question: 'What happens in the free practice test before the summer program?',
-        answer: 'The week before the program starts, you\'ll take a full-length practice SAT with me proctoring over Zoom. It\'s free and doesn\'t count toward your 24 sessions. I use your results to build a study plan that targets exactly where you need the most improvement.',
+        answer: 'The week before the program starts, you\'ll take a full-length practice SAT with me proctoring over Zoom — about 2.5 hours. It\'s free and doesn\'t count toward your 24 sessions. I use your results to build a study plan that targets exactly where you need the most improvement.',
     },
     {
         question: 'How does the payment plan work for the summer program?',
