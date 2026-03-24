@@ -74,8 +74,7 @@ export function MathTutoring() {
                                 src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1XXpYuRIVADudqNh0sNC9zwRgtF5CXCd6b4xXbrXPKJqcfhD8t7Ckok5GAcYCntEMXIhwI2ZLm?gv=true"
                                 style={{ border: 0 }}
                                 width="100%"
-                                height="600"
-                                className="rounded-lg"
+                                className="rounded-lg h-[500px] md:h-[600px]"
                                 title="Book a session with Reese"
                             />
                         </div>
